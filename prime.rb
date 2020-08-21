@@ -1,6 +1,6 @@
 def prime?(integer)
   return false if integer == 1
-  [2..integer/2].any?{|n| integer % n == 0}? false:true
+  puts [2..integer/2]
 end
 
 puts prime?(16)
